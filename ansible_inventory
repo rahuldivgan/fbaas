@@ -1,0 +1,2 @@
+[webAppServer]
+web_server ansible_ssh_host=34.212.182.182 ansible_ssh_port=22 ansible_ssh_private_key_file=/Users/rahul/Downloads/keypair.pem ansible_ssh_user=ubuntu

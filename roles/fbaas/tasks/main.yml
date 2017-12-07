@@ -1,0 +1,17 @@
+- name: apt-get install pip package manager
+  apt:
+    name: python-pip
+    state: present
+
+- name: pip install flask web application framework
+  pip:
+    name: flask
+
+- name: copy python web app script
+  template:
+    src: /Users/rahul/sandbox/pandu_assignment/roles/fbaas/templates/fbaas.py.j2
+    dest: /etc/fbaas.py
+    mode: 0111
+
+- name: start fbaas web application
+  shell: nohup python /etc/fbaas.py &
