@@ -1,2 +1,3 @@
-This is the temp readme for fbaas
-Try 1
+##FBAAS
+
+Full Documentation available at http://fbaas.readthedocs.io
