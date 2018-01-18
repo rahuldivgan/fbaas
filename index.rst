@@ -1,6 +1,13 @@
-#Trial 1
-Further Documentatin on fbaas will be provided later. 
+**************************
+**Fizz Buzz As A Service**
+**************************
 
-For more documentation refer the following :
 
-fbaas.readthedocs.io
+============
+Contents:
+============
+
+1. API Documentation
+2. Usage Details
+3. Return Codes
+
