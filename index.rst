@@ -2,7 +2,6 @@
 **Fizz Buzz As A Service**
 **************************
 
-``Full Documentation available at`` http://fbaas.readthedocs.io
 
 ============
 Contents:
